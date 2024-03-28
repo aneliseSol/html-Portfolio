@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chapter</title>
+    
+    <link rel="stylesheet"  href="./StylesOne.css" />
+
+
+<!-- /*   */  -->
+    
+<style>
+    h2 {
+        color:red; /* Color of the title 'Chapters'  */
+    }
+    .body-Page {
+        display:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 20px;
+    }
+    .chapter-list {
+        padding: 10px;
+        margin-right: 2cm; /* margin after the title Chapters*/
+    }
+    .chapter-list ul {
+        list-style-type: none;
+        padding: 0;
+        background-color: beige;  /* makes the whole block beige */
+        cursor: pointer;
+    } 
+    .chapter-list ul li {
+        margin-bottom: 10px;  /* margin between one chapter and another */
+        cursor: pointer;   /* makes the pointing finger of the cursor */
+        background-color: aquamarine; /* makes the whole block aquamarine */
+    }
+    .image-container {
+        flex: 1;
+        max-width: 50%; /* Adjust as needed - widht of the picture  */
+        max-height: 80%;
+        flex-direction: column;
+        display: flex;
+       
+        background-color: rgb(245, 125, 125); /* for practice only, background of the image  */
+        margin: 0px;    /* for practice only, unnecessary   */
+    }
+    .image-container h2 {
+        margin-bottom: 20px; /* margin below the title 'Selected Image'  */ 
+        color:blue; /* Color of the title 'Selected Image'  */
+    }
+    .audio-button {
+        width: 8em; /* width of the button */
+        margin: 0px; /* or use top and bottom */
+        margin-bottom: 10px; /* bottom margin till the next botton- between one buttom and another*/
+        margin-top: 10px;
+        padding:10px 20px; /* spaces */
+        background-color: lightblue; /* color of the button */
+        border: 5px;    /* Thicknes of the border */
+        border-radius: 10px; /* Corners of the button */
+        cursor: pointer;  
+    }
+    .audio-buttons-container{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .audio-button:hover {
+        background-color:cornflowerblue;
+    }
+
+</style>
+</head>
+<body>
+    <h1 class="h1-Pink">Bem Vinda!</h1>
+    <nav>
+        <ul>
+          <!-- Each item in the navigation menu -->
+          <li><a id="homeLink" href="#">Home</a></li>
+          <li><a href="a1About.html">About</a></li>
+          <li><a href="a2Journal.html">Journal</a></li>
+          <li><a href="a5Contact.html">Contact</a></li>
+          <li><a href="a3Chapters.html">Chapters</a></li>
+          <li><a href="a4Exercises.html">Exercises</a></li>
+      
+        </ul>
+      </nav>
+     <div class="body-Page">
+        <div class="chapter-list">  <!-- This is for the Chapter -->  
+            <h2>Chapters</h2>
+            <ul>
+                <li>Chapter1 </li>
+                <li>Chapter2 </li>
+                <li>Chapter3 </li>
+                <li>Chapter4 </li>
+                <li>Chapter5 </li>
+            </ul>
+        
+            <div class="audio-buttons-container">     <!--This is for the Buttons -->
+                <h4>Audios Available:</h4>
+                <button class="audio-button">Audio1</button>
+                <button>Audio1</button>
+                <button class="audio-button">Audio1</button>
+                <button>Audio1</button>
+                <button class="audio-button">Audio1</button>
+                <button class="audio-button">Audio1</button>
+                <button class="audio-button">Audio1</button>
+            </div>
+        </div> 
+    </div>
+
+
+    
+    <div class="image-container">   <!-- This is for the picture-->
+        <h2>Selected Image</h2>
+        <img src="Images/image1-Birthday.jpg">
+    </div>
+
+</body>
+
+<script>
+    // JavaScript to redirect to index.html when Home is clicked
+    document.getElementById('homeLink').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default action of following the link
+      window.location.href = 'index.html'; // Redirect to index.html
+    });
+  </script>
+
+</html>

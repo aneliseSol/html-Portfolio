@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+
+    <!-- Linking external CSS stylesheet -->
+    <link rel="stylesheet"  href="./StylesOne.css" />
+
+    <style>
+      /* Basic styling is in the CSS */
+    </style>
+
+</head>
+<body>
+    <!-- Heading styled with class h1-Pink -->
+    <h1 class="h1-Pink">Bem Vinda!</h1>
+    
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <!-- Each item in the navigation menu -->
+        <li><a id="homeLink" href="#">Home</a></li>
+        <li><a href="a1About.html">About</a></li>
+        <li><a href="a2Journal.html">Journal</a></li>
+        <li><a href="a5Contact.html">Contact</a></li>
+        <li><a href="a3Chapters.html">Chapters</a></li>
+        <li><a href="a4Exercises.html">Exercises</a></li>
+      </ul>
+    </nav>
+
+    <!-- Content of the Exercises page -->
+    <main id="main-content">
+        <!-- Main heading -->
+        <H1> This is the Exercises Page</H1>
+    </main>
+
+    <script>
+      // JavaScript to redirect to index.html when Home is clicked
+      document.getElementById('homeLink').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default action of following the link
+        window.location.href = 'index.html'; // Redirect to index.html
+      });
+    </script>
+    
+</body>
+</html>
