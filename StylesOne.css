@@ -1,0 +1,66 @@
+
+/* Basic styling */
+    /* Styles the h1 elements to have blue color */
+    h1 {
+        color: blue;
+    }
+
+    /* Styles the elements with class h1-Pink to have magenta color */
+    .h1-Pink {
+        color: magenta;
+    }
+
+   /* Basic styling for the body */
+    body {
+        font-family: Arial, sans-serif; /* Sets font family to Arial or sans-serif */
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
+    }
+
+    /* Styles for navigation bar */
+    nav {
+        background-color: #333; /* Sets background color to dark gray */
+        color: #fff; /* Sets text color to white */
+        padding: 10px; /* Adds padding around the navigation */
+    }
+
+    /* Styles for unordered list within navigation */
+    nav ul {
+        list-style-type: none; /* Removes default list-style */
+        padding: 0; /* Removes default padding */
+        margin: 0; /* Removes default margin */
+    }
+
+    /* Styles for list items within navigation */
+    nav ul li {
+        display: inline; /* Displays list items inline */
+        margin-right: 20px; /* Adds right margin to separate list items */
+    }
+
+    /* Styles for links within list items in navigation */
+    nav ul li a {
+        color: #fff; /* Sets link color to white */
+        text-decoration: none; /* Removes underline from links */
+    }
+
+    /* Styles for links hover effect within navigation */
+    nav ul li a:hover {
+        text-decoration: underline; /* Adds underline to links on hover */
+    }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
