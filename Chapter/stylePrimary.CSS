@@ -1,0 +1,130 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+p {
+    margin:0;
+    padding:5px;
+}
+
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+
+
+
+.main-menu {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+.chapter-menu-container {
+    background-color: green;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 55px; 
+    display: flex;
+    align-items: center; 
+}
+
+
+.chapter-menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ 
+}
+
+.chapter-menu li {
+    display: inline-block;
+   
+}
+.chapter-menu li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px;
+}
+
+.chapter-menu li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.main-content {
+    padding-top: 1rem; 
+    margin-left: 20px;
+}
+
+.header {
+    height: 8rem;
+}      
+.audio-list {
+    margin-top: 9rem;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.audio-button {
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+.stop-audio-button {
+    color: white;
+    background-color: red;
+    padding:  5px;
+    border: none;
+    cursor: pointer;
+}
+iframe {
+    width: 80%;
+    height: 1100px;
+    border: none;
+}
+
+
